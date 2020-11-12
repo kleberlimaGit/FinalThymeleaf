@@ -38,7 +38,6 @@ public class FuncionarioController {
 	
 	@InitBinder
 	public void initBinder(WebDataBinder binder) {
-		System.out.println("eu entrei aqui ");
 		binder.addValidators(new FuncionarioValidator());
 	}
 
